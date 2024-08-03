@@ -1,0 +1,9 @@
+{
+    "cortex-debug.gdbPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "C:\\OPENOCD\\XPACK-OPENOCD-0.12.0-3\\BIN\\OPENOCD.EXE",
+    "cortex-debug.stutilPath": "C:/Program Files (x86)/stlink/bin/st-util",
+    "files.associations": {
+        "rcc.h": "c",
+        "main.h": "c"
+    },
+}

@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "device": "STM32F446RE",
+        "cwd": "${workspaceFolder}/build",
+        "executable": "firmware.elf",
+        "name": "launch OpenOCD",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": [
+          "C:/openocd/xpack-openocd-0.12.0-3/openocd/scripts/interface/stlink.cfg",
+          "C:/openocd/xpack-openocd-0.12.0-3/openocd/scripts/target/stm32f4x.cfg"
+        ],
+        "searchDir": [],
+        "runToEntryPoint": "",
+        "showDevDebugOutput": "none",
+        "svdFile": "${workspaceFolder}/.vscode/STM32F446.svd"
+      },
+      {
+        "cwd": "${workspaceFolder}/build",
+        "executable": "firmware.elf",
+        "name": "Attach OpenOCD",
+        "request": "attach",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": [
+          "C:/openocd/xpack-openocd-0.12.0-3/openocd/scripts/interface/stlink.cfg",
+          "C:/openocd/xpack-openocd-0.12.0-3/openocd/scripts/target/stm32f4x.cfg"
+        ],
+        "searchDir": [],
+        "runToEntryPoint": "",
+        "showDevDebugOutput": "none",
+        "svdFile": "${workspaceFolder}/.vscode/STM32F446.svd"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Drivers/CMSIS/Include/**",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/**"
+      ],
+      "defines": [
+        "stm32f4x",
+        "STM32F446",
+        "STM32F446xx",
+        "__ARM_ARCH_7EM__"
+      ],
+      "compilerPath": "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\13.3 rel1\\bin\\arm-none-eabi-gcc.exe",
+      "intelliSenseMode": "gcc-arm",
+      "cStandard": "c99",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
